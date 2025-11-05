@@ -116,9 +116,9 @@ const CitizenDashboard = ({ onLogout }) => {
                     <section id="profile" className="content-section">
                         <h2>My Profile</h2>
                         <div className="profile-card">
-                            <p><strong>Name:</strong> Alex Doe</p>
-                            <p><strong>Email:</strong> alex.doe@email.com</p>
-                            <p><strong>Address:</strong> 123 Future Ave, Smart City</p>
+                            <p><strong>Name:</strong> Upendra</p>
+                            <p><strong>Email:</strong> upendra.doe@email.com</p>
+                            <p><strong>Address:</strong> 123 gandhi nagar, Smart City</p>
                             <button className="btn" style={{ marginTop: '1rem' }}>Edit Profile</button>
                         </div>
                     </section>

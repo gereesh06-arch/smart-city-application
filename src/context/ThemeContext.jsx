@@ -1,4 +1,11 @@
 // src/context/ThemeContext.jsx
+/*
+    Fast refresh in some ESLint setups reports errors when a module
+    exports non-component helpers along with components (react-refresh/only-export-components).
+    This file intentionally exports a Context, a Provider component and a hook.
+    Disable that rule for this file to keep a single location for theme logic.
+*/
+/* eslint-disable react-refresh/only-export-components */
 
 import React, { createContext, useState, useEffect, useContext } from 'react';
 
